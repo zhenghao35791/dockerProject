@@ -1,6 +1,6 @@
 # dockerProject
 ## 容器管理项目
-`js`
+```javascript
 "author": "zhenghao",
   "license": "ISC",
   "bugs": {
@@ -25,5 +25,5 @@
     "gulp-uglify": "^2.1.2",
     "open": "0.0.5"
   }
-  ``
+ ```
   

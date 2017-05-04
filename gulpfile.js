@@ -2,16 +2,28 @@ var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();//在方法后加上双括号，表示立即调用
 //引入plugin插件后，可以用$直接调用以gulp开头的插件，而不再需要require声明
 var open = require('open');
+
 var app = {
   srcPath: 'src/',   //源代码路径
   devPath: 'build/', //整合后的路径，开发路径
   prdPath: 'dist/'   //生产环境路径
 };
 gulp.task('lib', function(){
-  gulp.src('bower_components/**/*')
-    .pipe(gulp.dest(app.devPath + 'vender'))
-    .pipe(gulp.dest(app.prdPath + 'vender'))
-    .pipe($.connect.reload());
+  gulp.src('node_modules/angular/**/*.js')
+    .pipe(gulp.dest(app.devPath + 'vender/angular'))
+    .pipe(gulp.dest(app.prdPath + 'vender/angular'));
+  gulp.src('node_modules/angular-animate/**/*.js')
+    .pipe(gulp.dest(app.devPath + 'vender/angular-animate'))
+    .pipe(gulp.dest(app.prdPath + 'vender/angular-animate'));
+  gulp.src('node_modules/angular-cookies/**/*.js')
+    .pipe(gulp.dest(app.devPath + 'vender/angular-cookies'))
+    .pipe(gulp.dest(app.prdPath + 'vender/angular-cookies'));
+  gulp.src('node_modules/angular-ui-router/**/*.js')
+    .pipe(gulp.dest(app.devPath + 'vender/angular-ui-router'))
+    .pipe(gulp.dest(app.prdPath + 'vender/angular-ui-router'));
+  gulp.src('node_modules/angular-validation/**/*.js')
+    .pipe(gulp.dest(app.devPath + 'vender/angular-validation'))
+    .pipe(gulp.dest(app.prdPath + 'vender/angular-validation'));
 });
 
 gulp.task('html', function(){
@@ -32,9 +44,9 @@ gulp.task('less', function(){
   gulp.src(app.srcPath + 'style/index.less')
     .pipe($.plumber())
     .pipe($.less())//因为有gulp-load-plugins插件，可以直接用$.less调用gulp-less插件
-    .pipe(gulp.dest(app.devPath + 'css'))
+    .pipe(gulp.dest(app.devPath + 'css'))//开发目录
     .pipe($.cssmin())//因为有gulp-load-plugins插件，可以直接用$.less调用gulp-cssmin插件
-    .pipe(gulp.dest(app.prdPath + 'css'))//传入到线上路径之前先压缩css
+    .pipe(gulp.dest(app.prdPath + 'css'))//传入到生产目录之前先压缩css
     .pipe($.connect.reload());
 });
 
@@ -58,7 +70,7 @@ gulp.task('image', function(){
 
 gulp.task('build',['image','js','less','json','lib','html']);
 
-gulp.task('clean', function(){
+gulp.task('clean', function(){//清除任务，每次发布前清除dist和build下的内容
   gulp.src([app.devPath, app.prdPath])  //同时清除编码环境和线上环境的目录内容
     .pipe($.clean());
 });
@@ -73,7 +85,7 @@ gulp.task('serve', ['build'], function() {//serve任务中引入build任务
   open('http://localhost:3000'); //服务起来后，自动打开页面
 
   //watch作用，当监控的内容发生变化，修改原文件的时候，自动执行构建任务
-  gulp.watch('bower_components/**/*', ['lib']);
+  // gulp.watch('node_modules/**/*', ['lib']);
   gulp.watch(app.srcPath + '**/*.html', ['html']);
   gulp.watch(app.srcPath + 'data/**/*.json', ['json']);
   gulp.watch(app.srcPath + 'style/**/*.less', ['less']);

@@ -4,7 +4,8 @@
   "description": "guizhou docker manage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp":"gulp"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "angular-ui-router": "^0.4.2",
     "angular-validation": "^1.4.2",
     "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
     "gulp-plumber": "^1.1.0",
     "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.1",

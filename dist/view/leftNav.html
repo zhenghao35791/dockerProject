@@ -1,79 +1,60 @@
 <div class="leftNav">
     <div class="nav-title">
-        <span>贵州云</span>
-        <span>1.0</span>
+        <a href="/">
+            <img src="/image/svg/ecloud.svg" alt=""/>
+            <span>贵州云</span>
+        </a>
     </div>
-
     <ul class="nav nav-sidebar">
-        <li class="header">
-            <a ui-sref="main">
-                <i class="fa fa-bar-chart-o fa-fw"></i>
-                总览
+        <li class="nav-header"
+            id="nav-header-first"
+            ng-class="{ active:'home'== currentType }">
+            <a ui-sref="main" ng-click="changeTab('home')">
+                <img src="/image/svg/overview.svg"
+                     class="nav-svg"  alt=""/>
+                <span>总览</span>
             </a>
         </li>
-
-        <li class="header">应用管理</li>
-        <li role="presentation" class="">
-            <a ui-sref="main.application">
-                <i class="fa fa-bar-chart-o fa-fw"></i>
-              应用
+        <li role="presentation" class="nav-header" ng-class="{ active:'application'== currentType }">
+            <a ui-sref="main.application" ng-click="changeTab('application')">
+                <img src="/image/svg/application.svg"
+                     class="nav-svg" alt=""/>
+                <span>应用</span>
             </a>
         </li>
-        <li role="presentation" class="">
-            <a ui-sref="main.service">
-                <i class="fa fa-adn fa-fw"></i>
-                服务
+        <li role="presentation" class="nav-header" ng-class="{ active:'service'== currentType }">
+            <a ui-sref="main.service" ng-click="changeTab('service')">
+                <img src="/image/svg/service.svg"
+                     class="nav-svg"  alt=""/>
+                <span>服务</span>
             </a>
         </li>
-        <li role="presentation" class="">
-            <a ui-sref="main.docker">
-                <i class="fa fa-adn fa-fw"></i>
-                容器
+        <li role="presentation" class="nav-header" ng-class="{ active:'docker'== currentType }">
+            <a ui-sref="main.docker" ng-click="changeTab('docker')">
+                <img src="/image/svg/docker.svg"
+                     class="nav-svg"  alt=""/>
+                <span>容器</span>
             </a>
         </li>
-    </ul>
-    <ul class="nav nav-sidebar">
-        <li class="header">资源</li>
-        <li role="presentation" class="">
-            <a href="/">
-                <i class="fa fa-bar-chart-o fa-fw"></i>
-                服务
+        <li role="presentation" class="nav-header" ng-class="{ active:'db'== currentType }">
+            <a ui-sref="main.docker" ng-click="changeTab('db')">
+                <img src="/image/svg/db.svg"
+                     class="nav-svg"  alt=""/>
+                <span>数据库</span>
             </a>
         </li>
-        <li role="presentation" class="">
-            <a href="/">
-                <i class="fa fa-adn fa-fw"></i>
-                容器
+        <li role="presentation" class="nav-header" ng-class="{ active:'tomcat'== currentType }">
+            <a ui-sref="main.docker" ng-click="changeTab('tomcat')">
+                <img src="/image/svg/tomcat.svg"
+                     class="nav-svg"  alt=""/>
+                <span>中间件</span>
             </a>
         </li>
-    </ul>
-    <ul class="nav nav-sidebar">
-        <li class="header">管理</li>
-        <li role="presentation" class="">
-            <a href="/">
-                <i class="fa fa-bar-chart-o fa-fw"></i>
-                监控告警
-            </a>
-        </li>
-        <li role="presentation" class="">
-            <a href="/">
-                <i class="fa fa-adn fa-fw"></i>
-                日志管理
-            </a>
-        </li>
-    </ul>
-    <ul class="nav nav-sidebar">
-        <li class="header">数据库与缓存</li>
-        <li role="presentation" class="">
-            <a href="/">
-                <i class="fa fa-bar-chart-o fa-fw"></i>
-                关系型数据库
-            </a>
-        </li>
-        <li role="presentation" class="">
-            <a href="/">
-                <i class="fa fa-adn fa-fw"></i>
-                缓存
+        <li role="presentation" class="nav-header" ng-class="{ active:'user'== currentType }">
+            <a ui-sref="main.docker" ng-click="changeTab('user')">
+                <img src="/image/svg/user.svg"
+                     class="nav-svg"  alt=""/>
+                <span>用户</span>
             </a>
         </li>
     </ul>

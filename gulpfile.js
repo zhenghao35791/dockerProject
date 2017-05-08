@@ -9,6 +9,9 @@ var app = {
   prdPath: 'dist/'   //生产环境路径
 };
 gulp.task('lib', function(){
+  gulp.src('node_modules/bootstrap/dist/css/bootstrap.min.css')
+    .pipe(gulp.dest(app.devPath + 'vender/bootstrap/css'))
+    .pipe(gulp.dest(app.prdPath + 'vender/bootstrap/css'));
   gulp.src('node_modules/angular/**/*.js')
     .pipe(gulp.dest(app.devPath + 'vender/angular'))
     .pipe(gulp.dest(app.prdPath + 'vender/angular'));

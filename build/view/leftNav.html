@@ -2,10 +2,11 @@
     <div class="nav-title">
         <a href="/">
             <img src="/image/svg/ecloud.svg" alt=""/>
-            <span>贵州云</span>
+            <span>云平台</span>
         </a>
     </div>
     <ul class="nav nav-sidebar">
+        <li class="nav-li-title">应用</li>
         <li class="nav-header"
             id="nav-header-first"
             ng-class="{ active:'home'== currentType }">
@@ -15,20 +16,29 @@
                 <span>总览</span>
             </a>
         </li>
-        <li role="presentation" class="nav-header" ng-class="{ active:'application'== currentType }">
-            <a ui-sref="main.application" ng-click="changeTab('application')">
-                <img src="/image/svg/application.svg"
+        <li role="presentation" class="nav-header" ng-class="{ active:'appStore'== currentType }">
+            <a ui-sref="main.appStore" ng-click="changeTab('appStore')">
+                <img src="/image/svg/appStore.svg"
                      class="nav-svg" alt=""/>
-                <span>应用</span>
+                <span>应用商店</span>
             </a>
         </li>
-        <li role="presentation" class="nav-header" ng-class="{ active:'service'== currentType }">
-            <a ui-sref="main.service" ng-click="changeTab('service')">
-                <img src="/image/svg/service.svg"
+        <li role="presentation" class="nav-header" ng-class="{ active:'appModule'== currentType }">
+            <a ui-sref="main.appModule" ng-click="changeTab('appModule')">
+                <img src="/image/svg/appModule.svg"
                      class="nav-svg"  alt=""/>
-                <span>服务</span>
+                <span>应用模版</span>
             </a>
         </li>
+        <li role="presentation" class="nav-header" ng-class="{ active:'appInstance'== currentType }">
+            <a ui-sref="main.appInstance" ng-click="changeTab('appInstance')">
+                <img src="/image/svg/appInstance.svg"
+                     class="nav-svg"  alt=""/>
+                <span>应用实例</span>
+            </a>
+        </li>
+
+        <li class="nav-li-title">资源</li>
         <li role="presentation" class="nav-header" ng-class="{ active:'docker'== currentType }">
             <a ui-sref="main.docker" ng-click="changeTab('docker')">
                 <img src="/image/svg/docker.svg"
@@ -36,25 +46,43 @@
                 <span>容器</span>
             </a>
         </li>
-        <li role="presentation" class="nav-header" ng-class="{ active:'db'== currentType }">
-            <a ui-sref="main.docker" ng-click="changeTab('db')">
-                <img src="/image/svg/db.svg"
+        <li role="presentation" class="nav-header" ng-class="{ active:'localMirror'== currentType }">
+            <a ui-sref="main.localMirror" ng-click="changeTab('localMirror')">
+                <img src="/image/svg/localMirror.svg"
                      class="nav-svg"  alt=""/>
-                <span>数据库</span>
+                <span>本地镜像</span>
             </a>
         </li>
-        <li role="presentation" class="nav-header" ng-class="{ active:'tomcat'== currentType }">
-            <a ui-sref="main.docker" ng-click="changeTab('tomcat')">
-                <img src="/image/svg/tomcat.svg"
+        <li role="presentation" class="nav-header" ng-class="{ active:'mirrorStore'== currentType }">
+            <a ui-sref="main.mirrorStore" ng-click="changeTab('mirrorStore')">
+                <img src="/image/svg/mirrorStore.svg"
                      class="nav-svg"  alt=""/>
-                <span>中间件</span>
+                <span>镜像仓库</span>
             </a>
         </li>
-        <li role="presentation" class="nav-header" ng-class="{ active:'user'== currentType }">
-            <a ui-sref="main.docker" ng-click="changeTab('user')">
-                <img src="/image/svg/user.svg"
+
+        <li class="nav-li-title">弹性伸缩</li>
+        <li role="presentation" class="nav-header" ng-class="{ active:'flexible'== currentType }">
+            <a ui-sref="main.flexible" ng-click="changeTab('flexible')">
+                <img src="/image/svg/flexible.svg"
                      class="nav-svg"  alt=""/>
-                <span>用户</span>
+                <span>自动伸缩</span>
+            </a>
+        </li>
+
+        <li class="nav-li-title">管理</li>
+        <li role="presentation" class="nav-header" ng-class="{ active:'monitor'== currentType }">
+            <a ui-sref="main.monitor" ng-click="changeTab('monitor')">
+                <img src="/image/svg/monitor.svg"
+                     class="nav-svg"  alt=""/>
+                <span>监控告警</span>
+            </a>
+        </li>
+        <li role="presentation" class="nav-header" ng-class="{ active:'settings'== currentType }">
+            <a ui-sref="main.settings" ng-click="changeTab('settings')">
+                <img src="/image/svg/settings.svg"
+                     class="nav-svg"  alt=""/>
+                <span>系统设置</span>
             </a>
         </li>
     </ul>

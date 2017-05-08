@@ -3,24 +3,28 @@
   top: 0;
   left: 0;
   width: 200px;
+  border-right: 1px solid #3b4253;
   height: 100%;
   z-index: 200;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: #2b333d;
+  background-color: #3b4253;
   color: #fff;
 }
 .leftNav .active {
-  border-right: 2px solid #2db7f5;
-  background-color: #2db7f5;
+  color: #fff;
+  background-color: #353c4a;
+  border-left: 5px solid #5ea3f8;
 }
 .leftNav .active a {
   color: #fff;
 }
 .leftNav .nav-title {
   color: #FFFFFF;
-  padding: 15px 20px;
-  background-color: #333c47;
+  padding: 15px 20px 10px 20px;
+  /*
+    background-color: #333c47;
+    */
 }
 .leftNav .nav-title img {
   width: 30px;
@@ -28,24 +32,26 @@
   margin-top: -5px;
 }
 .leftNav .nav-title span {
-  margin-left: 10px;
   margin-top: 2px;
   color: #FFFFFF;
   vertical-align: top;
   font-size: 18px;
-  font-weight: bold;
 }
-.nav-sidebar #nav-header-first {
-  margin-top: 20px;
+.nav-sidebar .nav-li-title {
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: 200;
 }
 .nav-sidebar .nav-svg {
   float: left;
   width: 20px;
   height: 20px;
-  margin: 5px 15px 0 20px;
+  margin: 5px 15px 0 15px;
 }
 .nav-sidebar .nav-header {
-  padding: 10px 0 10px 20px;
+  padding: 5px 0 5px 15px;
   font-size: 14px;
   vertical-align: top;
   color: #FFFFFF;
@@ -61,9 +67,6 @@
   color: #a2abbd;
 }
 .dashboard {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
   min-width: 968px;
   height: 100%;
 }
@@ -116,10 +119,136 @@
   width: auto;
   cursor: pointer;
 }
+.application {
+  padding: 20px;
+}
+.application .app-btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #57c5f7;
+  white-space: nowrap;
+  line-height: 1.5;
+  font-size: 12px;
+  border-radius: 6px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  color: #57c5f7;
+  background-color: transparent;
+}
+.application .app-btn i {
+  margin-right: 5px;
+}
+.application .app-btn span {
+  color: #57c5f7;
+}
+.right-main {
+  height: 100%;
+  background-color: #F4F4F4;
+}
+.breadcrumb-nav {
+  height: 40px;
+  padding: 20px 40px 20px 40px;
+  border-bottom: 1px solid #eee;
+  background-color: #fafafa;
+  box-shadow: 0 1px 3px #ddd;
+  font-size: 0;
+}
+.breadcrumb-nav .breadcrumb-svg {
+  height: 30px;
+  width: 30px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.breadcrumb-nav .breadcrumb-span {
+  font-size: 24px;
+}
+.appStore .app-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.appStore .app-wrap .app-card {
+  background: #fff;
+  width: 235px;
+  height: 345px;
+  margin: 35px 15px;
+  padding: 22px;
+  text-align: center;
+  cursor: pointer;
+  word-break: break-all;
+  transition: transform .5s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.appStore .app-wrap .app-card:hover {
+  transform: scale(1.05);
+}
+.appStore .app-wrap .app-card:hover button {
+  opacity: 1;
+}
+.appStore .app-wrap .app-card .app-card-h1 {
+  height: 26px;
+  overflow: hidden;
+  font-size: 24px;
+  font-weight: 500;
+}
+.appStore .app-wrap .app-card p {
+  height: 60px;
+  line-height: 30px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.appStore .app-wrap .app-card .btn {
+  width: 100px;
+  transition: opacity .5s;
+  opacity: 0;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.appStore .app-wrap .app-card .btn-primary {
+  margin-top: 25px;
+  color: #fff;
+  background-color: #5ea3f8;
+  border-color: #4695f7;
+}
+.appStore .app-wrap img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+table thead th {
+  cursor: default;
+}
+table thead th.sortable {
+  cursor: pointer;
+}
+.relative {
+  position: relative;
+}
+.relative .popover {
+  width: 200px;
+}
+.pagination-sm {
+  margin: 0;
+}
+.global-search {
+  margin-bottom: 20px;
+}
 /* Reset.less   * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).   * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /*https://github.com/fankay/bootstrap/blob/master/lib/reset.less  http://www.lesscss.net/   ERIC MEYER RESET   --------------------------------------------------*/
 html,
 body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;

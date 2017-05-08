@@ -18,19 +18,29 @@ angular.module('app').config(['$stateProvider', '$urlRouterProvider',
         },*/
         controller:'mainCtrl' //命名方式为，url+Ctrl，页面的逻辑放在controller里面
       })
-      .state('main.application', {
+      /*.state('main.application', {
         url: "/application",
-        templateUrl: 'view/appControl/application.html',
+        templateUrl: 'view/application/application.html',
         controller: 'applicationCtrl'
+      })*/
+      .state('main.appStore', {
+        url: "/appStore",
+        templateUrl: 'view/application/appStore.html',
+        controller: 'appStoreCtrl'
       })
-      .state('main.service', {
-        url: "/service",
-        templateUrl: 'view/appControl/service.html',
-        controller: 'serviceCtrl'
+      .state('main.appModule', {
+        url: "/appModule",
+        templateUrl: 'view/application/appModule.html',
+        controller: 'appModuleCtrl'
+      })
+      .state('main.appInstance', {
+        url: "/appInstance",
+        templateUrl: 'view/application/appInstance.html',
+        controller: 'appInstanceCtrl'
       })
       .state('main.docker', {
         url: "/docker",
-        templateUrl: 'view/appControl/docker.html',
+        templateUrl: 'view/resource/docker.html',
         controller: 'dockerCtrl'
       })
   }]);

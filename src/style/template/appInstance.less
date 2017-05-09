@@ -1,23 +1,54 @@
-table thead th {
-  cursor: default;
+.appInstance .right-main{
+  padding:40px;
 }
+.appInstance .table {
+  .grid-action{
+    float: right;
 
-table thead th.sortable {
-  cursor: pointer;
+  }
+  thead {
+    background-color: #737d93;
+    border: 1px solid #737d93;
+    border-bottom-width: 0;
+    color: #FFFFFF;
+    .sortable{
+      cursor: pointer;
+    }
+    tr {
+      height: 40px;
+      th{
+        i{
+          color: #adc0d2;
+          position: absolute;
+          right: 2px;
+          top: 2px;
+        }
+      }
+    }
+  }
+  tbody {
+    background-color: #eef3f7;
+    border: 1px solid #eee;
+    border-top-width: 0;
+    tr {
+      height: 48px;
+      text-align: left;
+      td{
+      }
+    }
+  }
+  thead>tr>th a {
+    display: block;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+    min-width: 60px;
+  }
 }
-
-.relative {
-  position: relative;
+.right-main >.table-hover > tbody > tr:hover {
+  background-color: #FFFFFF;
 }
-
-.relative .popover {
-  width: 200px;
-}
-
-.pagination-sm {
-  margin: 0;
-}
-
-.global-search {
-  margin-bottom: 20px;
+.right-main >.table > tbody > tr > td{
+  vertical-align:middle;
 }

@@ -1,19 +1,18 @@
 /**
  * Created by zhenghao on 2017/4/21.
  */
-angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', function($http, $scope){
+angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', '$window',function($http, $scope, $window){
   var vm = $scope.vm = {};
-  vm.page = {
-    size: 5,
-    index: 1
+  vm.showFilter = false;
+  vm.toggleFilter = function(){
+    vm.showFilter = !vm.showFilter;
   };
   vm.sort = {
-    column: 'id',
+    column: 'instance_name',
     direction: -1,
     toggle: function(column) {
       if (column.sortable === false)
         return;
-
       if (this.column === column.name) {
         this.direction = -this.direction || -1;
       } else {
@@ -22,53 +21,165 @@ angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', function
       }
     }
   };
+  vm.refresh = function(){
+    $window.location.reload();
+  };
   // 构建模拟数据
   vm.columns = [
     {
-      label: 'ID',
-      name: 'id',
-      type: 'string'
+      label: '实例名称',
+      name: 'instance_name'
     },
     {
-      label: '姓名',
-      name: 'name',
-      type: 'string'
+      label: '部署状态',
+      name: 'status'
     },
     {
-      label: '粉丝数',
-      name: 'followers',
-      type: 'number'
+      label: '模版名称',
+      name: 'model_name'
     },
     {
-      label: '收入',
-      name: 'income',
-      type: 'currency'
+      label: '模版版本',
+      name: 'model_version'
     },
     {
-      label: '',
-      name: 'actions',
+      label: '主机分组',
+      name: 'host'
+    },
+    {
+      label: '容器数目',
+      name: 'docker_num'
+    },
+    {
+      label: '操作',
+      name: 'action',
       sortable: false
     }
   ];
-  // 供页面中使用的函数
-  vm.age = function(birthday) {
-    return moment().diff(birthday, 'years');
-  };
-
-  vm.items = [];
-  var MAX_NUM = 10 * 1000;
-  function rand(min, max) {
-    return min + Math.round(Math.random() * (max-min));
-  }
-  for (var i = 0; i < MAX_NUM; ++i) {
-    var id = rand(0, MAX_NUM);
-    vm.items.push({
-      id: i + 1,
-      name: 'Name' + id, // 字符串类型
-      followers: rand(0, 100 * 1000 * 1000), // 数字类型
-      birthday: moment().subtract('day', rand(365, 365 * 50)).toDate(), // 日期类型
-      summary: '这是一个测试' + i,
-      income: rand(1000, 100000) // 金额类型
-    });
-  }
+  // 构建模拟数据
+  vm.items = [
+    {
+      instance_name: '11111',
+      status: '已部署',
+      model_name:'chrome浏览器',
+      model_version:'577d600',
+      host:'vlan18',
+      docker_num:'3',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: '222222',
+      status: '已部署',
+      model_name:'chrome浏览器',
+      model_version:'577d622',
+      host:'vlan18',
+      docker_num:'2',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: '333333',
+      status: '已部署',
+      model_name:'CICD',
+      model_version:'5234123',
+      host:'vlan112',
+      docker_num:'6',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: '444444',
+      status: '已部署',
+      model_name:'CICD',
+      model_version:'5234144',
+      host:'vlan1',
+      docker_num:'2',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: 'asdsd',
+      status: '已部署',
+      model_name:'Ngnix',
+      model_version:'033366a',
+      host:'vlan18',
+      docker_num:'3',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: 'aasfasw',
+      status: '已部署',
+      model_name:'Ngnix',
+      model_version:'033366a',
+      host:'vlan8',
+      docker_num:'4',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: 'f4213',
+      status: '已部署',
+      model_name:'Ngnix',
+      model_version:'033366a',
+      host:'vlan8',
+      docker_num:'4',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: '5gdfsd',
+      status: '已部署',
+      model_name:'Ngnix',
+      model_version:'0333231',
+      host:'vlan2',
+      docker_num:'1',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: 'dasfwq21',
+      status: '已部署',
+      model_name:'redis',
+      model_version:'241ad2',
+      host:'vlan8',
+      docker_num:'4',
+      action_one:'删除',
+      action_two:'升级'
+    }
+    ,
+    {
+      instance_name: 'gggg',
+      status: '已部署',
+      model_name:'redis',
+      model_version:'241ad2',
+      host:'vlan8',
+      docker_num:'4',
+      action_one:'删除',
+      action_two:'升级'
+    }
+    ,
+    {
+      instance_name: 'sdfsdfas',
+      status: '已部署',
+      model_name:'redis',
+      model_version:'241ad2',
+      host:'vlan8',
+      docker_num:'6',
+      action_one:'删除',
+      action_two:'升级'
+    }
+    ,
+    {
+      instance_name: 'dasfwq22',
+      status: '已部署',
+      model_name:'redis',
+      model_version:'241ad2',
+      host:'vlan8',
+      docker_num:'2',
+      action_one:'删除',
+      action_two:'升级'
+    }
+  ];
 }]);

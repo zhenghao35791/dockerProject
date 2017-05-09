@@ -43,4 +43,9 @@ angular.module('app').config(['$stateProvider', '$urlRouterProvider',
         templateUrl: 'view/resource/docker.html',
         controller: 'dockerCtrl'
       })
+      .state('main.host', {
+        url: "/host",
+        templateUrl: 'view/resource/host.html',
+        controller: 'hostCtrl'
+      })
   }]);

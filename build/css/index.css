@@ -11,6 +11,11 @@
   background-color: #3b4253;
   color: #fff;
 }
+.leftNav a:hover {
+  background-color: #353c4a;
+  color: #fff;
+  text-decoration: none;
+}
 .leftNav .active {
   color: #fff;
   background-color: #353c4a;
@@ -18,17 +23,15 @@
 }
 .leftNav .active a {
   color: #fff;
+  text-decoration: none;
 }
 .leftNav .nav-title {
   color: #FFFFFF;
   padding: 15px 20px 10px 20px;
-  /*
-    background-color: #333c47;
-    */
 }
 .leftNav .nav-title img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   margin-top: -5px;
 }
 .leftNav .nav-title span {
@@ -37,34 +40,44 @@
   vertical-align: top;
   font-size: 18px;
 }
+.nav-sidebar {
+  padding: 0;
+}
 .nav-sidebar .nav-li-title {
   color: #fff;
   padding-top: 10px;
   padding-left: 15px;
   font-size: 14px;
   font-weight: 200;
-}
-.nav-sidebar .nav-svg {
-  float: left;
-  width: 20px;
-  height: 20px;
-  margin: 5px 15px 0 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 .nav-sidebar .nav-header {
-  padding: 5px 0 5px 15px;
+  padding: 5px 15px;
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
   font-size: 14px;
   vertical-align: top;
-  color: #FFFFFF;
-}
-.nav-sidebar > li {
-  list-style: none;
-  height: 30px;
-  line-height: 30px;
-}
-.nav-sidebar a {
-  vertical-align: top;
-  text-decoration: none;
   color: #a2abbd;
+  cursor: pointer;
+}
+.nav-sidebar .nav-header:hover {
+  background-color: #353c4a;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-sidebar .nav-header a {
+  color: #a2abbd;
+  text-decoration: none;
+  font-size: 14px;
+}
+.nav-sidebar .nav-header .nav-svg {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -3px 10px 0 15px;
 }
 .dashboard {
   min-width: 968px;
@@ -142,12 +155,8 @@
 .application .app-btn span {
   color: #57c5f7;
 }
-.right-main {
-  height: 100%;
-  background-color: #F4F4F4;
-}
 .breadcrumb-nav {
-  height: 40px;
+  height: 75px;
   padding: 20px 40px 20px 40px;
   border-bottom: 1px solid #eee;
   background-color: #fafafa;
@@ -162,6 +171,10 @@
 }
 .breadcrumb-nav .breadcrumb-span {
   font-size: 24px;
+}
+.appStore .right-main {
+  height: 100%;
+  background-color: #F4F4F4;
 }
 .appStore .app-wrap {
   display: flex;
@@ -226,110 +239,50 @@
   height: 120px;
   margin-bottom: 20px;
 }
-table thead th {
-  cursor: default;
+.appInstance .right-main {
+  padding: 40px;
 }
-table thead th.sortable {
+.appInstance .table .grid-action {
+  float: right;
+}
+.appInstance .table thead {
+  background-color: #737d93;
+  border: 1px solid #737d93;
+  border-bottom-width: 0;
+  color: #FFFFFF;
+}
+.appInstance .table thead .sortable {
   cursor: pointer;
 }
-.relative {
-  position: relative;
+.appInstance .table thead tr {
+  height: 40px;
 }
-.relative .popover {
-  width: 200px;
+.appInstance .table thead tr th i {
+  color: #adc0d2;
+  position: absolute;
+  right: 2px;
+  top: 2px;
 }
-.pagination-sm {
-  margin: 0;
+.appInstance .table tbody {
+  background-color: #eef3f7;
+  border: 1px solid #eee;
+  border-top-width: 0;
 }
-.global-search {
-  margin-bottom: 20px;
+.appInstance .table tbody tr {
+  height: 48px;
+  text-align: left;
 }
-/* Reset.less   * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).   * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/*https://github.com/fankay/bootstrap/blob/master/lib/reset.less  http://www.lesscss.net/   ERIC MEYER RESET   --------------------------------------------------*/
-html,
-body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+.appInstance .table thead > tr > th a {
+  display: block;
+  color: #fff;
   width: 100%;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-dd,
-dl,
-dt,
-li,
-ol,
-ul,
-fieldset,
-form,
-label,
-legend,
-button,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 100%;
-  line-height: 1;
-  font-family: inherit;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-ol,
-ul {
-  list-style: none;
-}
-q:before,
-q:after,
-blockquote:before,
-blockquote:after {
-  content: "";
-}
-a {
-  color: #2db7f5;
-  background: transparent;
+  position: relative;
   text-decoration: none;
-  outline: none;
-  cursor: pointer;
-  transition: color .3s ease;
+  min-width: 60px;
+}
+.right-main > .table-hover > tbody > tr:hover {
+  background-color: #FFFFFF;
+}
+.right-main > .table > tbody > tr > td {
+  vertical-align: middle;
 }

@@ -5,17 +5,19 @@
             <span>云平台</span>
         </a>
     </div>
-    <ul class="nav nav-sidebar">
-        <li class="nav-li-title">应用</li>
+    <ul class="nav-sidebar">
+        <li class="nav-li-title">总览</li>
         <li class="nav-header"
             id="nav-header-first"
             ng-class="{ active:'home'== currentType }">
             <a ui-sref="main" ng-click="changeTab('home')">
                 <img src="/image/svg/overview.svg"
                      class="nav-svg"  alt=""/>
-                <span>总览</span>
+                <span>平台总览</span>
             </a>
         </li>
+
+        <li class="nav-li-title">应用</li>
         <li role="presentation" class="nav-header" ng-class="{ active:'appStore'== currentType }">
             <a ui-sref="main.appStore" ng-click="changeTab('appStore')">
                 <img src="/image/svg/appStore.svg"
@@ -44,6 +46,13 @@
                 <img src="/image/svg/docker.svg"
                      class="nav-svg"  alt=""/>
                 <span>容器</span>
+            </a>
+        </li>
+        <li role="presentation" class="nav-header" ng-class="{ active:'host'== currentType }">
+            <a ui-sref="main.host" ng-click="changeTab('host')">
+                <img src="/image/svg/host.svg"
+                     class="nav-svg"  alt=""/>
+                <span>主机</span>
             </a>
         </li>
         <li role="presentation" class="nav-header" ng-class="{ active:'localMirror'== currentType }">

@@ -61,8 +61,9 @@ angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', '$window
     {
       instance_name: '11111',
       status: '已部署',
-      model_name:'chrome浏览器',
-      model_version:'577d600',
+      model_name:'chrome',
+      model_version:'577d622',
+      label:'lastest',
       host:'vlan18',
       docker_num:'3',
       action_one:'删除',
@@ -71,8 +72,9 @@ angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', '$window
     {
       instance_name: '222222',
       status: '已部署',
-      model_name:'chrome浏览器',
+      model_name:'chrome',
       model_version:'577d622',
+      label:'lastest',
       host:'vlan18',
       docker_num:'2',
       action_one:'删除',
@@ -113,6 +115,7 @@ angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', '$window
       status: '已部署',
       model_name:'Ngnix',
       model_version:'033366a',
+      label:'lastest',
       host:'vlan8',
       docker_num:'4',
       action_one:'删除',
@@ -123,6 +126,7 @@ angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', '$window
       status: '已部署',
       model_name:'Ngnix',
       model_version:'033366a',
+      label:'lastest',
       host:'vlan8',
       docker_num:'4',
       action_one:'删除',
@@ -147,8 +151,7 @@ angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', '$window
       docker_num:'4',
       action_one:'删除',
       action_two:'升级'
-    }
-    ,
+    },
     {
       instance_name: 'gggg',
       status: '已部署',
@@ -158,8 +161,7 @@ angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', '$window
       docker_num:'4',
       action_one:'删除',
       action_two:'升级'
-    }
-    ,
+    },
     {
       instance_name: 'sdfsdfas',
       status: '已部署',
@@ -169,15 +171,37 @@ angular.module('app').controller('appInstanceCtrl', ['$http', '$scope', '$window
       docker_num:'6',
       action_one:'删除',
       action_two:'升级'
-    }
-    ,
+    },
     {
-      instance_name: 'dasfwq22',
-      status: '已部署',
+      instance_name: 'test001',
+      status: '部署中',
       model_name:'redis',
-      model_version:'241ad2',
+      model_version:'0000v1',
+      label:'lastest',
       host:'vlan8',
       docker_num:'2',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: 'test002',
+      status: '部署中',
+      model_name:'redis',
+      model_version:'0000v1',
+      label:'lastest',
+      host:'vlan8',
+      docker_num:'4',
+      action_one:'删除',
+      action_two:'升级'
+    },
+    {
+      instance_name: 'test003',
+      status: '部署中',
+      model_name:'redis',
+      model_version:'0000v1',
+      label:'lastest',
+      host:'vlan8',
+      docker_num:'6',
       action_one:'删除',
       action_two:'升级'
     }

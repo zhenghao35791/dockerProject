@@ -1,5 +1,5 @@
-<div class="appModule">
-    <div breadcrumb title="应用模版" image="appModule-black"></div>
+<div class="mirrorStore">
+    <div breadcrumb title="镜像仓库" image="mirrorStore-black"></div>
     <div class="right-main">
         <div class="input-group pull-right global-search">
             <label class="input-group-addon">全局搜索</label>
@@ -39,19 +39,21 @@
             </thead>
             <tbody>
             <tr ng-if="vm.showFilter">
-                <td><input type="text" ng-model="vm.filter.model_name" class="form-control"/></td>
-                <td><input type="text" ng-model="vm.filter.create_time" class="form-control"/></td>
-                <td><input type="number" ng-model="vm.filter.instance_num" class="form-control"/></td>
-                <td><input type="text" ng-model="vm.filter.desc" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.storeName" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.host" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.userName" class="form-control"/></td>
+                <td></td>
             </tr>
             <tr ng-repeat="item in vm.items|filter:vm.filter|orderBy:vm.sort.column:vm.sort.direction===-1">
-                <td style="width:25%"><a href="">{{item.model_name}}</a></td>
+                <td style="width:25%"><a href="">{{item.storeName}}</a></td>
+                <td>{{item.host}}</td>
+                <td>{{item.userName}}</td>
                 <td>
-                    {{item.create_time}}
-                    <span class="label label-info" style="margin-left: 5px">{{item.label}}</span>
+                    <div class="action_btns">
+                        <button type="button" class="btn btn-xs btn-danger">{{item.action_one}}</button>
+                        <button type="button" class="btn btn-xs btn-success">{{item.action_two}}</button>
+                    </div>
                 </td>
-                <td>{{item.instance_num}}</td>
-                <td>{{item.desc}}</td>
             </tr>
             </tbody>
         </table>

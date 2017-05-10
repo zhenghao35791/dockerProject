@@ -44,17 +44,20 @@
             <tr ng-if="vm.showFilter">
                 <td><input type="text" ng-model="vm.filter.instance_name" class="form-control"/></td>
                 <td><input type="text" ng-model="vm.filter.status" class="form-control"/></td>
-                <td><input type="number" ng-model="vm.filter.model_name" class="form-control"/></td>
-                <td><input type="number" ng-model="vm.filter.model_version" class="form-control"/></td>
-                <td><input type="number" ng-model="vm.filter.host" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.model_name" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.model_version" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.host" class="form-control"/></td>
                 <td><input type="number" ng-model="vm.filter.docker_num" class="form-control"/></td>
                 <td></td>
             </tr>
                 <tr ng-repeat="item in vm.items|filter:vm.filter|orderBy:vm.sort.column:vm.sort.direction===-1">
-                    <td><a href="">{{item.instance_name}}</a></td>
+                    <td style="width:25%"><a href="">{{item.instance_name}}</a></td>
                     <td style="color: rgb(83,173,125)">{{item.status}}</td>
                     <td><a href="">{{item.model_name}}</a></td>
-                    <td><a href="">{{item.model_version}}</a></td>
+                    <td>
+                        <a href="">{{item.model_version}}</a>
+                        <span class="label label-info" style="margin-left: 5px">{{item.label}}</span>
+                    </td>
                     <td><a href="">{{item.host}}</a></td>
                     <td><a href="">{{item.docker_num}}</a></td>
                     <td>

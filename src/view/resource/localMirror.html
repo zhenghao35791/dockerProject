@@ -1,5 +1,5 @@
-<div class="appModule">
-    <div breadcrumb title="应用模版" image="appModule-black"></div>
+<div class="localMirror">
+    <div breadcrumb title="本地镜像" image="localMirror-black"></div>
     <div class="right-main">
         <div class="input-group pull-right global-search">
             <label class="input-group-addon">全局搜索</label>
@@ -39,22 +39,45 @@
             </thead>
             <tbody>
             <tr ng-if="vm.showFilter">
-                <td><input type="text" ng-model="vm.filter.model_name" class="form-control"/></td>
+                <td></td>
+                <td><input type="text" ng-model="vm.filter.id" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.name" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.host" class="form-control"/></td>
                 <td><input type="text" ng-model="vm.filter.create_time" class="form-control"/></td>
-                <td><input type="number" ng-model="vm.filter.instance_num" class="form-control"/></td>
-                <td><input type="text" ng-model="vm.filter.desc" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.size" class="form-control"/></td>
+                <td></td>
             </tr>
-            <tr ng-repeat="item in vm.items|filter:vm.filter|orderBy:vm.sort.column:vm.sort.direction===-1">
-                <td style="width:25%"><a href="">{{item.model_name}}</a></td>
+            <tr ng-repeat="item in vm.items|filter:vm.filter|
+            orderBy:vm.sort.column:vm.sort.direction===-1">
+                <td style="width: 5%"><input type="checkbox"/></td>
+                <td><a href="">{{item.id}}</a></td>
+                <td>{{item.name}}</td>
+                <td><a href="">{{item.host}}</a></td>
+                <td>{{item.create_time}}</td>
+                <td>{{item.size}}</td>
                 <td>
-                    {{item.create_time}}
-                    <span class="label label-info" style="margin-left: 5px">{{item.label}}</span>
+                    <div class="action_btns">
+                        <button type="button" class="btn btn-xs btn-danger">{{item.action_one}}</button>
+                        <button type="button" class="btn btn-xs btn-success">{{item.action_two}}</button>
+                    </div>
                 </td>
-                <td>{{item.instance_num}}</td>
-                <td>{{item.desc}}</td>
             </tr>
             </tbody>
         </table>
+       <!-- <div class="row">
+            <div class="col-md-3">
+                <select ng-model="vm.page.size" class="form-control" title="每页条目数"
+                        ng-options="pageSize for pageSize in [5, 20, 100]">
+                </select>
+            </div>
+            <div class="col-md-9">
+                <pagination total-items="vm.items"
+                            ng-model="vm.page.index" max-size="5"
+                            items-per-page="5"
+                            class="pagination-sm pull-right" boundary-links="true">
+                </pagination>
 
+            </div>
+        </div>-->
     </div>
 </div>

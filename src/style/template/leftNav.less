@@ -10,18 +10,15 @@
   overflow-x: hidden;
   background-color: rgb(59, 66, 83);
   color: #fff;
-  a:hover{
-    background-color: #353c4a;
-    color: #fff;
-    text-decoration: none;
-  }
-  .active{
-    color: #fff;
-    background-color: #353c4a;
-    border-left: 5px solid #5ea3f8;
-    a{
-      color: #fff;
-      text-decoration: none;
+  .nav-sidebar{
+    .active{
+      color: #FFFFFF !important;
+      background-color: #353c4a;
+      border-left: 5px solid #5ea3f8;
+      a{
+        color: #FFFFFF !important;
+        text-decoration: none;
+      }
     }
   }
   .nav-title{
@@ -40,7 +37,7 @@
     }
   }
 }
-.nav-sidebar{
+#nav-sidebar{
   padding: 0;
   .nav-li-title{
     color: #fff;
@@ -58,19 +55,16 @@
     line-height: 40px;
     font-size: 14px;
     vertical-align: top;
-    color: #a2abbd;
     cursor: pointer;
-    &:hover{
-      background-color: #353c4a;
-      color: #FFFFFF;
-      text-decoration: none;
-      cursor: pointer;
-    }
     a{
+      padding:10px;
       color: #a2abbd;
-
       text-decoration: none;
       font-size: 14px;
+    }
+    a:hover{
+      color: #FFFFFF;
+
     }
     .nav-svg{
       display: inline-block;
@@ -78,6 +72,10 @@
       height: 20px;
       margin: -3px 10px 0 15px;
     }
+    &:hover{
+      background-color: #353c4a;
+      text-decoration: none;
+      cursor: pointer;
+    }
   }
-
 }

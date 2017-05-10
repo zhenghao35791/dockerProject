@@ -11,18 +11,13 @@
   background-color: #3b4253;
   color: #fff;
 }
-.leftNav a:hover {
-  background-color: #353c4a;
-  color: #fff;
-  text-decoration: none;
-}
-.leftNav .active {
-  color: #fff;
+.leftNav .nav-sidebar .active {
+  color: #FFFFFF !important;
   background-color: #353c4a;
   border-left: 5px solid #5ea3f8;
 }
-.leftNav .active a {
-  color: #fff;
+.leftNav .nav-sidebar .active a {
+  color: #FFFFFF !important;
   text-decoration: none;
 }
 .leftNav .nav-title {
@@ -40,10 +35,10 @@
   vertical-align: top;
   font-size: 18px;
 }
-.nav-sidebar {
+#nav-sidebar {
   padding: 0;
 }
-.nav-sidebar .nav-li-title {
+#nav-sidebar .nav-li-title {
   color: #fff;
   padding-top: 10px;
   padding-left: 15px;
@@ -52,32 +47,34 @@
   margin-top: 10px;
   margin-bottom: 15px;
 }
-.nav-sidebar .nav-header {
+#nav-sidebar .nav-header {
   padding: 5px 15px;
   list-style: none;
   height: 40px;
   line-height: 40px;
   font-size: 14px;
   vertical-align: top;
-  color: #a2abbd;
   cursor: pointer;
 }
-.nav-sidebar .nav-header:hover {
-  background-color: #353c4a;
-  color: #FFFFFF;
-  text-decoration: none;
-  cursor: pointer;
-}
-.nav-sidebar .nav-header a {
+#nav-sidebar .nav-header a {
+  padding: 10px;
   color: #a2abbd;
   text-decoration: none;
   font-size: 14px;
 }
-.nav-sidebar .nav-header .nav-svg {
+#nav-sidebar .nav-header a:hover {
+  color: #FFFFFF;
+}
+#nav-sidebar .nav-header .nav-svg {
   display: inline-block;
   width: 20px;
   height: 20px;
   margin: -3px 10px 0 15px;
+}
+#nav-sidebar .nav-header:hover {
+  background-color: #353c4a;
+  text-decoration: none;
+  cursor: pointer;
 }
 .dashboard {
   min-width: 968px;
@@ -156,6 +153,7 @@
   color: #57c5f7;
 }
 .breadcrumb-nav {
+  margin-top: 50px;
   height: 75px;
   padding: 20px 40px 20px 40px;
   border-bottom: 1px solid #eee;
@@ -183,8 +181,8 @@
 }
 .appStore .app-wrap .app-card {
   background: #fff;
-  width: 235px;
-  height: 345px;
+  width: 250px;
+  height: 340px;
   margin: 35px 15px;
   padding: 22px;
   text-align: center;
@@ -229,15 +227,61 @@
   border-radius: 5px;
 }
 .appStore .app-wrap .app-card .btn-primary {
-  margin-top: 25px;
   color: #fff;
   background-color: #5ea3f8;
   border-color: #4695f7;
 }
 .appStore .app-wrap img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 20px;
+}
+.appModule .right-main {
+  padding: 40px;
+}
+.appModule .table .grid-action {
+  float: right;
+}
+.appModule .table thead {
+  background-color: #737d93;
+  border: 1px solid #737d93;
+  border-bottom-width: 0;
+  color: #FFFFFF;
+}
+.appModule .table thead .sortable {
+  cursor: pointer;
+}
+.appModule .table thead tr {
+  height: 40px;
+}
+.appModule .table thead tr th i {
+  color: #adc0d2;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+.appModule .table tbody {
+  background-color: #eef3f7;
+  border: 1px solid #eee;
+  border-top-width: 0;
+}
+.appModule .table tbody tr {
+  height: 48px;
+  text-align: left;
+}
+.appModule .table thead > tr > th a {
+  display: block;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+  min-width: 60px;
+}
+.right-main > .table-hover > tbody > tr:hover {
+  background-color: #FFFFFF;
+}
+.right-main > .table > tbody > tr > td {
+  vertical-align: middle;
 }
 .appInstance .right-main {
   padding: 40px;
@@ -285,4 +329,168 @@
 }
 .right-main > .table > tbody > tr > td {
   vertical-align: middle;
+}
+.docker .right-main {
+  padding: 40px;
+}
+.docker .table .grid-action {
+  float: right;
+}
+.docker .table thead {
+  background-color: #737d93;
+  border: 1px solid #737d93;
+  border-bottom-width: 0;
+  color: #FFFFFF;
+}
+.docker .table thead .sortable {
+  cursor: pointer;
+}
+.docker .table thead tr {
+  height: 40px;
+}
+.docker .table thead tr th i {
+  color: #adc0d2;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+.docker .table tbody {
+  background-color: #eef3f7;
+  border: 1px solid #eee;
+  border-top-width: 0;
+}
+.docker .table tbody tr {
+  height: 48px;
+  text-align: left;
+}
+.docker .table thead > tr > th a {
+  display: block;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+  min-width: 60px;
+}
+.localMirror .right-main {
+  padding: 40px;
+}
+.localMirror .table .grid-action {
+  float: right;
+}
+.localMirror .table thead {
+  background-color: #737d93;
+  border: 1px solid #737d93;
+  border-bottom-width: 0;
+  color: #FFFFFF;
+}
+.localMirror .table thead .sortable {
+  cursor: pointer;
+}
+.localMirror .table thead tr {
+  height: 40px;
+}
+.localMirror .table thead tr th i {
+  color: #adc0d2;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+.localMirror .table tbody {
+  background-color: #eef3f7;
+  border: 1px solid #eee;
+  border-top-width: 0;
+}
+.localMirror .table tbody tr {
+  height: 48px;
+  text-align: left;
+}
+.localMirror .table thead > tr > th a {
+  display: block;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+  min-width: 60px;
+}
+.mirrorStore .right-main {
+  padding: 40px;
+}
+.mirrorStore .table .grid-action {
+  float: right;
+}
+.mirrorStore .table thead {
+  background-color: #737d93;
+  border: 1px solid #737d93;
+  border-bottom-width: 0;
+  color: #FFFFFF;
+}
+.mirrorStore .table thead .sortable {
+  cursor: pointer;
+}
+.mirrorStore .table thead tr {
+  height: 40px;
+}
+.mirrorStore .table thead tr th i {
+  color: #adc0d2;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+.mirrorStore .table tbody {
+  background-color: #eef3f7;
+  border: 1px solid #eee;
+  border-top-width: 0;
+}
+.mirrorStore .table tbody tr {
+  height: 48px;
+  text-align: left;
+}
+.mirrorStore .table thead > tr > th a {
+  display: block;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+  min-width: 60px;
+}
+.host .right-main {
+  padding: 40px;
+}
+.host .table .grid-action {
+  float: right;
+}
+.host .table thead {
+  background-color: #737d93;
+  border: 1px solid #737d93;
+  border-bottom-width: 0;
+  color: #FFFFFF;
+}
+.host .table thead .sortable {
+  cursor: pointer;
+}
+.host .table thead tr {
+  height: 40px;
+}
+.host .table thead tr th i {
+  color: #adc0d2;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+.host .table tbody {
+  background-color: #eef3f7;
+  border: 1px solid #eee;
+  border-top-width: 0;
+}
+.host .table tbody tr {
+  height: 48px;
+  text-align: left;
+}
+.host .table thead > tr > th a {
+  display: block;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+  min-width: 60px;
 }

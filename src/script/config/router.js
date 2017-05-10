@@ -48,4 +48,14 @@ angular.module('app').config(['$stateProvider', '$urlRouterProvider',
         templateUrl: 'view/resource/host.html',
         controller: 'hostCtrl'
       })
+      .state('main.localMirror', {
+        url: "/localMirror",
+        templateUrl: 'view/resource/localMirror.html',
+        controller: 'localMirrorCtrl'
+      })
+      .state('main.mirrorStore', {
+        url: "/mirrorStore",
+        templateUrl: 'view/resource/mirrorStore.html',
+        controller: 'mirrorStoreCtrl'
+      })
   }]);

@@ -12,6 +12,9 @@ gulp.task('lib', function(){
   gulp.src('node_modules/bootstrap/dist/fonts/**/*')
     .pipe(gulp.dest(app.devPath + 'vender/fonts'))
     .pipe(gulp.dest(app.prdPath + 'vender/fonts'));
+  gulp.src('node_modules/angular-ui-bootstrap/dist/**/*')
+    .pipe(gulp.dest(app.devPath + 'vender/angular-ui-bootstrap/'))
+    .pipe(gulp.dest(app.prdPath + 'vender/angular-ui-bootstrap/'));
   gulp.src('node_modules/bootstrap/dist/css/bootstrap.min.css')
     .pipe(gulp.dest(app.devPath + 'vender/bootstrap/'))
     .pipe(gulp.dest(app.prdPath + 'vender/bootstrap/'));

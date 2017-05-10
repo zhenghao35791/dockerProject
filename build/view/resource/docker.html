@@ -1,0 +1,85 @@
+<div class="docker">
+    <div breadcrumb title="容器" image="docker-black"></div>
+    <div class="right-main">
+        <div class="input-group pull-right global-search">
+            <label class="input-group-addon">全局搜索</label>
+            <input type="text" class="form-control" ng-model="vm.filter.$"/>
+        </div>
+        <table class="table table-hover">
+            <caption>
+                <div class="grid-action">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default" ng-click="vm.toggleFilter()">
+                            <i class="glyphicon glyphicon-search"></i>
+                            筛选
+                        </button>
+                        <button type="button" class="btn btn-default" ng-click="vm.refresh()">
+                            <i class="glyphicon glyphicon-refresh"></i>
+                            刷新
+                        </button>
+                        <button type="button" class="btn btn-default">
+                            <i class="glyphicon glyphicon-cog"></i>
+                            设置
+                        </button>
+                    </div>
+                </div>
+            </caption>
+            <thead>
+            <tr>
+                <th ng-repeat="column in vm.columns"
+                    ng-if="!column.hidden"
+                    ng-click="vm.sort.toggle(column)"
+                    ng-class="{sortable: column.sortable !== false}">
+                    <a href="">{{column.label}}
+                        <i ng-if="column.name === vm.sort.column && vm.sort.direction"
+                           class="glyphicon {{vm.sort.direction|orderClass}}"></i>
+                    </a>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-if="vm.showFilter">
+                <td><input type="text" ng-model="vm.filter.id" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.docker_name" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.status" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.label" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.ip" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.monitor_status" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.host" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.mirror" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.order" class="form-control"/></td>
+                <td></td>
+            </tr>
+            <tr ng-repeat="item in vm.items|filter:vm.filter|orderBy:vm.sort.column:vm.sort.direction===-1">
+                <td><a href="">{{item.id}}</a></td>
+                <td>{{item.docker_name}}</td>
+                <td style="color: rgb(83,173,125)">{{item.status}}</td>
+                <td>
+                    <span class="label label-info" style="margin-left: 5px">{{item.label}}</span>
+                </td>
+                <td>{{item.ip}}</td>
+                <td style="color: rgb(83,173,125)">{{item.monitor_status}}</td>
+                <td><a href="">{{item.host}}</a></td>
+                <td><a href="">{{item.mirror}}</a></td>
+                <td>{{item.order}}</td>
+                <td>
+                    <div class="action_btns">
+                        <button type="button" class="btn btn-xs btn-info" style="margin-right: 5px">
+                            <i class="glyphicon glyphicon-upload" style="margin-right: 3px"></i>
+                            {{item.action_one}}
+                        </button>
+                        <button type="button" class="btn btn-xs btn-success" style="margin-right: 5px">
+                            <i class="glyphicon glyphicon-floppy-save" style="margin-right: 3px"></i>
+                            {{item.action_two}}
+                        </button>
+                        <button type="button" class="btn btn-xs btn-success">
+                            <i class="glyphicon glyphicon-edit" style="margin-right: 3px"></i>
+                            {{item.action_three}}
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

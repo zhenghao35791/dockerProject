@@ -2,52 +2,316 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d65cbd-f5b8-4e67-ac9f-61ce3e42c575" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/controller/application/appInstanceCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/template/application/appModule.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/controller/application/appModuleCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/resource/localMirror.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/template/resource/localMirror.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/resource/mirrorStore.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/controller/resource/mirrorStore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/template/resource/mirrorStore.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/filter/paging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/filter/size.js" />
-      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\src\script\controller\appModuleCtrl.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\image\svg-black\loaclMirror-black.svg" afterPath="$PROJECT_DIR$/src/image/svg-black/localMirror-black.svg" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\script\controller\appInstanceCtrl.js" afterPath="$PROJECT_DIR$/src/script/controller/resource/localMirror.js" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\script\controller\appStoreCtrl.js" afterPath="$PROJECT_DIR$/src/script/controller/application/appStoreCtrl.js" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\script\controller\applicationCtrl.js" afterPath="$PROJECT_DIR$/src/script/controller/application/applicationCtrl.js" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\script\controller\dockerCtrl.js" afterPath="$PROJECT_DIR$/src/script/controller/resource/dockerCtrl.js" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\script\controller\hostCtrl.js" afterPath="$PROJECT_DIR$/src/script/controller/resource/hostCtrl.js" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\style\template\appInstance.less" afterPath="$PROJECT_DIR$/src/style/template/application/appInstance.less" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\style\template\appModule.less" afterPath="$PROJECT_DIR$/src/style/template/resource/host.less" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\style\template\appStore.less" afterPath="$PROJECT_DIR$/src/style/template/application/appStore.less" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\style\template\application.less" afterPath="$PROJECT_DIR$/src/style/template/application/application.less" />
-      <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\src\style\template\docker.less" afterPath="$PROJECT_DIR$/src/style/template/resource/docker.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/app.js" afterPath="$PROJECT_DIR$/src/script/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/application/appInstance.html" afterPath="$PROJECT_DIR$/src/view/application/appInstance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/application/appModule.html" afterPath="$PROJECT_DIR$/src/view/application/appModule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/template/breadcrumbNav.less" afterPath="$PROJECT_DIR$/src/style/template/breadcrumbNav.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/resource/docker.html" afterPath="$PROJECT_DIR$/src/view/resource/docker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/resource/host.html" afterPath="$PROJECT_DIR$/src/view/resource/host.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/index.css" afterPath="$PROJECT_DIR$/build/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/index.css" afterPath="$PROJECT_DIR$/dist/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/index.js" afterPath="$PROJECT_DIR$/build/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/index.js" afterPath="$PROJECT_DIR$/dist/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/index.less" afterPath="$PROJECT_DIR$/src/style/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/view/leftNav.html" afterPath="$PROJECT_DIR$/build/view/leftNav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/view/leftNav.html" afterPath="$PROJECT_DIR$/dist/view/leftNav.html" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\403.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\css\index.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\data\city.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\appStore\222.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\appStore\chrome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\appStore\chrome.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\appStore\nginx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\appStore\redis.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\appStore\tomcat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\appInstance-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\appInstance.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\appModule-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\appModule.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\appStore-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\appStore.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\docker-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\docker.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\ecloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\flexible-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\flexible.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\host-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\loaclMirror-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\localMirror-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\localMirror.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\mirrorService-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\mirrorStore-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\mirrorStore.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\monitor-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\monitor.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\overview-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\overview.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\settings-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\settings.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\容器 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\应用商店.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\弹性伸缩.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\总览 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\模版 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\监控.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\系统设置.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\镜像仓库 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg-black\镜像服务 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\appInstance.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\appModule.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\appStore.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\application.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\db.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\docker.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\ecloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\flexible.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\host.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\localMirror.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\mirrorService.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\mirrorStore.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\monitor.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\overview.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\service.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\settings.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\tomcat.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\user.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\商店.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\容器.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\应用.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\总览.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\模版.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\镜像仓库.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\镜像服务.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\js\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-animate\angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-animate\angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-animate\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-cookies\angular-cookies.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-cookies\angular-cookies.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-cookies\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-bootstrap\ui-bootstrap-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-bootstrap\ui-bootstrap-tpls.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-bootstrap\ui-bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\release\angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\release\angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\state.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\stateDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\stateFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\templateFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\urlMatcherFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\urlRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\view.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\viewDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-ui-router\src\viewScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\config\karma.conf.angular.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\config\karma.conf.angular.1.4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\demo\demo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\dist\angular-validation-rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\dist\angular-validation-rule.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\dist\angular-validation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\dist\angular-validation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\dist\bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\package.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\src\module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\src\provider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\src\reset.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\src\rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\src\submit.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\src\validator.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\lib\angular-mocks.1.3.18.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\lib\angular-mocks.1.4.7.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\lib\angular.1.3.18.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\lib\angular.1.4.7.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\actualValue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\callbackSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\compileSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\directivesSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\providerSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\setgetValidMethodSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\showMessageSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\validationGroupSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\validationResetSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\test\unit\validationSubmitSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular-validation\webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\angular\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\bootstrap\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\vender\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\appControl\application.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\appControl\docker.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\appControl\service.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\application\appInstance.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\application\appModule.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\application\appStore.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\application\application.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\application\breadcrumb.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\header.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\leftNav.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\main.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\docker.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\host.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\localMirror.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\mirrorStore.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\template\dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\template\header.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\template\leftNav.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\viewport.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\403.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\css\index.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\data\city.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\appStore\222.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\appStore\chrome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\appStore\chrome.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\appStore\nginx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\appStore\redis.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\appStore\tomcat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\appInstance-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\appInstance.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\appModule-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\appModule.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\appStore-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\appStore.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\docker-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\docker.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\ecloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\flexible-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\flexible.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\host-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\loaclMirror-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\localMirror-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\localMirror.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\mirrorService-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\mirrorStore-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\mirrorStore.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\monitor-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\monitor.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\overview-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\overview.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\settings-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\settings.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\容器 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\应用商店.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\弹性伸缩.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\总览 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\模版 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\监控.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\系统设置.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\镜像仓库 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg-black\镜像服务 (1).svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\appInstance.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\appModule.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\appStore.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\application.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\db.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\docker.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\ecloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\flexible.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\host.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\localMirror.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\mirrorService.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\mirrorStore.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\monitor.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\overview.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\service.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\settings.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\tomcat.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\user.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\商店.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\容器.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\应用.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\总览.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\模版.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\镜像仓库.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\镜像服务.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\js\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-animate\angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-animate\angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-animate\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-cookies\angular-cookies.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-cookies\angular-cookies.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-cookies\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-bootstrap\ui-bootstrap-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-bootstrap\ui-bootstrap-tpls.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-bootstrap\ui-bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\release\angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\release\angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\state.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\stateDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\stateFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\templateFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\urlMatcherFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\urlRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\view.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\viewDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-ui-router\src\viewScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\config\karma.conf.angular.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\config\karma.conf.angular.1.4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\demo\demo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\dist\angular-validation-rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\dist\angular-validation-rule.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\dist\angular-validation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\dist\angular-validation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\dist\bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\package.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\src\module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\src\provider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\src\reset.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\src\rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\src\submit.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\src\validator.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\lib\angular-mocks.1.3.18.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\lib\angular-mocks.1.4.7.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\lib\angular.1.3.18.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\lib\angular.1.4.7.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\actualValue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\callbackSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\compileSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\directivesSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\providerSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\setgetValidMethodSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\showMessageSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\validationGroupSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\validationResetSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\test\unit\validationSubmitSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular-validation\webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\angular\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\bootstrap\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\vender\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\appControl\application.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\appControl\docker.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\appControl\service.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\application\appInstance.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\application\appModule.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\application\appStore.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\application\application.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\application\breadcrumb.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\header.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\leftNav.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\main.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\resource\docker.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\resource\host.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\resource\localMirror.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\resource\mirrorStore.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\template\dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\template\header.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\template\leftNav.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\viewport.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/leftNav.html" afterPath="$PROJECT_DIR$/src/view/leftNav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/template/leftNav.less" afterPath="$PROJECT_DIR$/src/style/template/leftNav.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/view/main.html" afterPath="$PROJECT_DIR$/build/view/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/view/main.html" afterPath="$PROJECT_DIR$/dist/view/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/main.html" afterPath="$PROJECT_DIR$/src/view/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/config/router.js" afterPath="$PROJECT_DIR$/src/script/config/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/resource/localMirror.html" afterPath="$PROJECT_DIR$/src/view/resource/localMirror.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dockerProject.iws" />
@@ -69,21 +333,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="localMirror.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/resource/localMirror.html">
+      <file leaf-file-name="leftNav.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/leftNav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.352081">
-              <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.571428">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.60784316">
+              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -148,7 +402,6 @@
         <option value="$PROJECT_DIR$/src/script/controller/hostCtrl.js" />
         <option value="$PROJECT_DIR$/src/script/filter/orderClass.js" />
         <option value="$PROJECT_DIR$/src/style/template/appInstance.less" />
-        <option value="$PROJECT_DIR$/src/view/leftNav.html" />
         <option value="$PROJECT_DIR$/src/style/template/leftNav.less" />
         <option value="$PROJECT_DIR$/src/style/template/appStore.less" />
         <option value="$PROJECT_DIR$/src/style/template/appModule.less" />
@@ -177,6 +430,7 @@
         <option value="$PROJECT_DIR$/src/script/app.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/script/controller/resource/localMirror.js" />
+        <option value="$PROJECT_DIR$/src/view/leftNav.html" />
         <option value="$PROJECT_DIR$/src/view/resource/localMirror.html" />
       </list>
     </option>
@@ -251,298 +505,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dockerProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-ui-bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -650,7 +612,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -755,30 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.49583334">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/reset.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5714285">
@@ -828,13 +766,6 @@
         <state vertical-scroll-proportion="0.43137255">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/leftNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23529412">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -962,7 +893,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -972,8 +903,8 @@
         <state vertical-scroll-proportion="-0.85714287">
           <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1016,7 +947,7 @@
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding>
             <element signature="n#div#0;n#caption#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1027,8 +958,8 @@
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding>
             <element signature="n#div#0;n#caption#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1071,16 +1002,8 @@
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding>
             <element signature="n#div#0;n#caption#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.571428">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,8 +1025,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/resource/localMirror.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.352081">
-          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.040494937">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8039216">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/leftNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60784316">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
           <folding />
         </state>
       </provider>

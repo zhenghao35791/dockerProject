@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d65cbd-f5b8-4e67-ac9f-61ce3e42c575" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/appStore/AutoScaling.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/appStore/CICD.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/appStore/HaProxy.jpg" />
@@ -27,6 +28,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/template/resource/tomcat.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/svg/tomcat.svg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/controller/resource/tomcatCtrl.js" />
+=======
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\403.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\404.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\css\index.css" afterPath="" />
@@ -74,6 +77,10 @@
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\appModule.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\appStore.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\application.svg" afterPath="" />
+<<<<<<< HEAD
+=======
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\db.svg" afterPath="" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\docker.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\ecloud.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\flexible.svg" afterPath="" />
@@ -85,6 +92,10 @@
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\overview.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\service.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\settings.svg" afterPath="" />
+<<<<<<< HEAD
+=======
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\tomcat.svg" afterPath="" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\user.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\商店.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\image\svg\容器.svg" afterPath="" />
@@ -172,6 +183,11 @@
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\leftNav.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\main.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\docker.html" afterPath="" />
+<<<<<<< HEAD
+=======
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\host.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\localMirror.html" afterPath="" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\mirrorStore.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\template\dashboard.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\build\view\template\header.html" afterPath="" />
@@ -224,6 +240,10 @@
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\appModule.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\appStore.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\application.svg" afterPath="" />
+<<<<<<< HEAD
+=======
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\db.svg" afterPath="" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\docker.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\ecloud.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\flexible.svg" afterPath="" />
@@ -235,6 +255,10 @@
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\overview.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\service.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\settings.svg" afterPath="" />
+<<<<<<< HEAD
+=======
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\tomcat.svg" afterPath="" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\user.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\商店.svg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\image\svg\容器.svg" afterPath="" />
@@ -322,12 +346,17 @@
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\leftNav.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\main.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\resource\docker.html" afterPath="" />
+<<<<<<< HEAD
+=======
+      <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\resource\host.html" afterPath="" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\resource\localMirror.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\resource\mirrorStore.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\template\dashboard.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\template\header.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\template\leftNav.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\dist\view\viewport.html" afterPath="" />
+<<<<<<< HEAD
       <change type="DELETED" beforePath="C:\Users\zhenghao\dockerProject\src\view\resource\localMirror.html" afterPath="" />
       <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\host.html" afterPath="$PROJECT_DIR$/src/view/resource/tomcat.html" />
       <change type="MOVED" beforePath="C:\Users\zhenghao\dockerProject\build\view\resource\localMirror.html" afterPath="$PROJECT_DIR$/src/view/mirror/localMirror.html" />
@@ -355,6 +384,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/config/router.js" afterPath="$PROJECT_DIR$/src/script/config/router.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/image/svg/tomcat.svg" afterPath="$PROJECT_DIR$/build/image/svg/tomcat.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/image/svg/tomcat.svg" afterPath="$PROJECT_DIR$/dist/image/svg/tomcat.svg" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/leftNav.html" afterPath="$PROJECT_DIR$/src/view/leftNav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/resource/localMirror.html" afterPath="$PROJECT_DIR$/src/view/resource/localMirror.html" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dockerProject.iws" />
@@ -376,6 +409,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="appStoreCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/script/controller/application/appStoreCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -391,6 +425,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+=======
+      <file leaf-file-name="leftNav.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/leftNav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.60784316">
+              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
               <folding />
             </state>
           </provider>
@@ -446,6 +487,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/script/filter/orderClass.js" />
         <option value="$PROJECT_DIR$/src/style/template/appInstance.less" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/style/template/leftNav.less" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
         <option value="$PROJECT_DIR$/src/style/template/appStore.less" />
         <option value="$PROJECT_DIR$/src/style/template/appModule.less" />
         <option value="$PROJECT_DIR$/src/script/controller/appModuleCtrl.js" />
@@ -465,6 +510,7 @@
         <option value="$PROJECT_DIR$/src/script/filter/paging.js" />
         <option value="$PROJECT_DIR$/src/script/app.js" />
         <option value="$PROJECT_DIR$/src/script/controller/resource/localMirror.js" />
+        <option value="$PROJECT_DIR$/src/view/leftNav.html" />
         <option value="$PROJECT_DIR$/src/view/resource/localMirror.html" />
         <option value="$PROJECT_DIR$/src/style/template/resource/db.less" />
         <option value="$PROJECT_DIR$/src/style/template/resource/tomcat.less" />
@@ -572,6 +618,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="dockerProject" />
@@ -1018,6 +1065,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -1132,7 +1181,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1235,6 +1288,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/script/filter/paging.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1257,6 +1311,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/template/resource/db.less">
+=======
+    <entry file="file://$PROJECT_DIR$/src/style/reset.less">
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11764706">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
@@ -1305,6 +1362,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/view/application/appInstance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.428572">
@@ -1313,6 +1371,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/resource/tomcat.html">
+=======
+    <entry file="file://$PROJECT_DIR$/src/style/template/application/appModule.less">
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5294118">
           <caret line="59" column="50" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="50" />
@@ -1414,15 +1475,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/leftNav.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-0.85714287">
           <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/script/directive/echarts/linechart.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.8888889">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="-0.85714287">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
         </state>
       </provider>
     </entry>
@@ -1457,15 +1535,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/script/directive/echarts/piecharts.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.28">
           <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+=======
+        <state vertical-scroll-proportion="-5.142857">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#caption#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/main.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.3006263">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="38" />
+=======
+        <state vertical-scroll-proportion="13.714286">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#caption#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
         </state>
       </provider>
     </entry>
@@ -1500,6 +1597,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/template/resource/docker.less">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-3.4285715">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
@@ -1514,6 +1612,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/template/application/appStore.less">
+=======
+        <state vertical-scroll-proportion="0.23529412">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#caption#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/app.js">
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.142858">
           <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
@@ -1531,8 +1641,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.47524753">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+=======
+        <state vertical-scroll-proportion="0.040494937">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8039216">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/leftNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60784316">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+>>>>>>> 97af7418d490e1be8cf0637b8e0f1fa1828111ae
           <folding />
         </state>
       </provider>

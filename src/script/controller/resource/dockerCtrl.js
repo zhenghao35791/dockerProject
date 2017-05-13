@@ -127,7 +127,7 @@ angular.module('app').controller('dockerCtrl', ['$http', '$scope', function($htt
       id: '5801ea4d289a',
       docker_name: 'yingyong-service-discovery-1',
       status:'运行中',
-      label:'name = ubuntu Base Image',
+      label:'name = ubuntu',
       ip:'192.168.18.111',
       monitor_status:'正常',
       host:'agent1803',

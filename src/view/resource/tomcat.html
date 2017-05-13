@@ -1,0 +1,72 @@
+<div class="host">
+    <div breadcrumb title="中间件" image="tomcat-black"></div>
+    <div class="right-main">
+        <div class="input-group pull-right global-search">
+            <label class="input-group-addon">全局搜索</label>
+            <input type="text" class="form-control" ng-model="vm.filter.$"/>
+        </div>
+        <table class="table table-hover">
+            <caption>
+                <div class="grid-action">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default" ng-click="vm.toggleFilter()">
+                            <i class="glyphicon glyphicon-search"></i>
+                            筛选
+                        </button>
+                        <button type="button" class="btn btn-default" ng-click="vm.refresh()">
+                            <i class="glyphicon glyphicon-refresh"></i>
+                            刷新
+                        </button>
+                        <button type="button" class="btn btn-default">
+                            <i class="glyphicon glyphicon-cog"></i>
+                            设置
+                        </button>
+                    </div>
+                </div>
+            </caption>
+            <thead>
+            <tr>
+                <th ng-repeat="column in vm.columns"
+                    ng-if="!column.hidden"
+                    ng-click="vm.sort.toggle(column)"
+                    ng-class="{sortable: column.sortable !== false}">
+                    <a href="">{{column.label}}
+                        <i ng-if="column.name === vm.sort.column && vm.sort.direction"
+                           class="glyphicon {{vm.sort.direction|orderClass}}"></i>
+                    </a>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-if="vm.showFilter">
+                <td><input type="text" ng-model="vm.filter.name" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.tomcat_name" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.mirror" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.service_address" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.create_time" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.actions" class="form-control"/></td>
+            </tr>
+            <tr ng-repeat="item in vm.items|filter:vm.filter|orderBy:vm.sort.column:vm.sort.direction===-1">
+                <td>
+                    <a href="">{{item.name}}
+                    <i class="glyphicon glyphicon-tags"></i>
+                    </a>
+                </td>
+                <td>
+                    <span class="label label-info">{{item.tomcat_name}}</span>
+                    </td>
+                <td>{{item.mirror}}</td>
+                <td>{{item.service_address}}</td>
+                <td style="color: rgb(83,173,125)">{{item.create_time}}</td>
+                <td>
+                    <div class="action_btns">
+                        <button type="button" class="btn btn-xs btn-danger">{{item.action_one}}</button>
+                        <button type="button" class="btn btn-xs btn-info">{{item.action_two}}</button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>

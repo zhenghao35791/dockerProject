@@ -9,6 +9,9 @@ var app = {
   prdPath: 'dist/'   //生产环境路径
 };
 gulp.task('lib', function(){
+  gulp.src('node_modules/echarts/dist/echarts.min.js')
+    .pipe(gulp.dest(app.devPath + 'vender/echarts/dist/'))
+    .pipe(gulp.dest(app.prdPath + 'vender/echarts/dist/'));
   gulp.src('node_modules/bootstrap/dist/fonts/**/*')
     .pipe(gulp.dest(app.devPath + 'vender/fonts'))
     .pipe(gulp.dest(app.prdPath + 'vender/fonts'));

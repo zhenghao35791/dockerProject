@@ -1,9 +1,8 @@
 <div class="leftNav">
     <div class="nav-title">
-        <a href="/">
-            <img src="/image/svg/ecloud.svg" alt=""/>
-            <span>云平台</span>
-        </a>
+        <img src="/image/svg/logo.png" alt=""/>
+        <span class="span_title">贵州大IT</span>
+        <span class="span_fu">统一PaaS平台</span>
     </div>
     <ul class="nav-sidebar" id="nav-sidebar">
         <li class="nav-li-title">总览</li>
@@ -55,11 +54,27 @@
                 <span>主机</span>
             </a>
         </li>
+        <li role="presentation" class="nav-header" ng-class="{ active:'db'== currentType }">
+            <a ui-sref="main.db" ng-click="changeTab('db')">
+                <img src="/image/svg/db.svg"
+                     class="nav-svg"  alt=""/>
+                <span>数据库</span>
+            </a>
+        </li>
+        <li role="presentation" class="nav-header" ng-class="{ active:'tomcat'== currentType }">
+            <a ui-sref="main.tomcat" ng-click="changeTab('tomcat')">
+                <img src="/image/svg/tomcat.svg"
+                     class="nav-svg"  alt=""/>
+                <span>中间件</span>
+            </a>
+        </li>
+
+        <li class="nav-li-title">镜像</li>
         <li role="presentation" class="nav-header" ng-class="{ active:'localMirror'== currentType }">
             <a ui-sref="main.localMirror" ng-click="changeTab('localMirror')">
                 <img src="/image/svg/localMirror.svg"
                      class="nav-svg"  alt=""/>
-                <span>本地镜像</span>
+                <span>私有镜像</span>
             </a>
         </li>
         <li role="presentation" class="nav-header" ng-class="{ active:'mirrorStore'== currentType }">

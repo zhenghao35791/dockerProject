@@ -1,7 +1,57 @@
 
 <div app-header style="width: 100%"></div>
 <div left-nav></div>
+
 <div class="ui-view" style="margin-left: 200px; height: 100%">
-    <div app-dashboard></div>
+    <div class="dashboard">
+        <div breadcrumb title="平台总览" image="overview-black"></div>
+        <div class="right-main">
+            <div class="overview-board">
+                <linebar text="应用状态" id="linebar" legend="linelegend1" data="linedata1"></linebar>
+                <piecharts text="资源分配情况" id="pie2" legend="legend3" item="item2" data="data" data2="data2"></piecharts>
+                <linebar text="资源分配使用率" id="linebar2" legend="linelegend2" data="linedata2"></linebar>
+
+                <piechart text="容器使用情况" id="pie" legend="legend2"></piechart>
+                <piecharts text="数据量统计及占比" id="pie3" legend="legend3" item="item2" data="data3" data2="data4"></piecharts>
+                <barchart text="接口数"
+                          id="barchart1"
+                          colorto='#87E2FA'
+                          colorfrom='#46BDFB'
+                          item="barchartItem1"
+                          data="barchartData1"
+                        >
+                </barchart>
+            </div>
+<!--
+            <linechart id="line" legend="legend1" item="item1" data="data1"></linechart>
+-->
+<!--
+            <piechart id="pie" legend="legend2" item="item2" data="data2"></piechart>
+-->
+          <!--  <barchart text="接口数"
+                      id="barchart1"
+                      colorto='#135495'
+                      colorfrom='#2DECE4'
+                      item="barchartItem1"
+                      data="barchartData1"
+                    >
+            </barchart>
+            <barchart text="数据分层"
+                      id="barchart2"
+                      colorto='#F0F444'
+                      colorfrom='#59EFA1'
+                      item="barchartItem2"
+                      data="barchartData2"
+                      color="barchartColor2"></barchart>
+            <barchart text="数据源"
+                      id="barchart3"
+                      colorto='#4424C0'
+                      colorfrom='#AE39E5'
+                      item="barchartItem3"
+                      data="barchartData3"
+                      color="barchartColor3"></barchart>-->
+
+        </div>
+    </div>
 </div>
 

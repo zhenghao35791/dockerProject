@@ -1,0 +1,67 @@
+<div class="host">
+    <div breadcrumb title="数据库" image="db-black"></div>
+    <div class="right-main">
+        <div class="input-group pull-right global-search">
+            <label class="input-group-addon">全局搜索</label>
+            <input type="text" class="form-control" ng-model="vm.filter.$"/>
+        </div>
+        <table class="table table-hover">
+            <caption>
+                <div class="grid-action">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default" ng-click="vm.toggleFilter()">
+                            <i class="glyphicon glyphicon-search"></i>
+                            筛选
+                        </button>
+                        <button type="button" class="btn btn-default" ng-click="vm.refresh()">
+                            <i class="glyphicon glyphicon-refresh"></i>
+                            刷新
+                        </button>
+                        <button type="button" class="btn btn-default">
+                            <i class="glyphicon glyphicon-cog"></i>
+                            设置
+                        </button>
+                    </div>
+                </div>
+            </caption>
+            <thead>
+            <tr>
+                <th ng-repeat="column in vm.columns"
+                    ng-if="!column.hidden"
+                    ng-click="vm.sort.toggle(column)"
+                    ng-class="{sortable: column.sortable !== false}">
+                    <a href="">{{column.label}}
+                        <i ng-if="column.name === vm.sort.column && vm.sort.direction"
+                           class="glyphicon {{vm.sort.direction|orderClass}}"></i>
+                    </a>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-if="vm.showFilter">
+                <td><input type="text" ng-model="vm.filter.dbname" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.type" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.status" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.fu_num" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.create_time" class="form-control"/></td>
+                <td><input type="text" ng-model="vm.filter.size" class="form-control"/></td>
+            </tr>
+            <tr ng-repeat="item in vm.items|filter:vm.filter|orderBy:vm.sort.column:vm.sort.direction===-1">
+                <td>
+                    <a href="">{{item.dbname}}
+                    <i class="glyphicon glyphicon-hdd"></i>
+                    </a>
+                </td>
+                <td>
+                    <span class="label label-info">{{item.type}}</span>
+                </td>
+                <td style="color: rgb(83,173,125)">{{item.status}}</td>
+                <td>{{item.fu_num}}</td>
+                <td  style="color: rgb(83,173,125)">{{item.create_time}}</td>
+                <td>{{item.size}}</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>

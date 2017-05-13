@@ -58,4 +58,14 @@ angular.module('app').config(['$stateProvider', '$urlRouterProvider',
         templateUrl: 'view/resource/mirrorStore.html',
         controller: 'mirrorStoreCtrl'
       })
+      .state('main.db', {
+        url: "/db",
+        templateUrl: 'view/resource/db.html',
+        controller: 'dbCtrl'
+      })
+      .state('main.tomcat', {
+        url: "/tomcat",
+        templateUrl: 'view/resource/tomcat.html',
+        controller: 'tomcatCtrl'
+      })
   }]);
